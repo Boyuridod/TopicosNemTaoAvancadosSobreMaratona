@@ -11,11 +11,18 @@ function modulo(x){
 function escrevePolinomio(...polinomio){
     let indice = polinomio.length - 1, escrito = "";
     for(const i of polinomio){
-        if(i > 0){
-            escrito += " +";
+        if(indice < (polinomio.length - 1)){
+            if(i > 0){
+                escrito += " +";
+            }
+            else if(i < 0){
+                escrito += " -";
+            }
         }
-        else if(i < 0){
-            escrito += " -";
+        else{
+            if(i < 0){
+                escrito += "-";
+            }
         }
 
         if(i != 0){
