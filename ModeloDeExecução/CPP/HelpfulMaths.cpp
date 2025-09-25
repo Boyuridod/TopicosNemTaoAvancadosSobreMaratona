@@ -10,7 +10,7 @@ const int mod = 1e9+7; // Primo
 
 int main(){
 
-    // ios_base::sync_with_stdio(false), cin.tie(0), cout.tie(0);
+    ios_base::sync_with_stdio(false), cin.tie(0), cout.tie(0);
 
     int i = 0;
     string a;
@@ -19,7 +19,7 @@ int main(){
 
     vector<int> b;
 
-    for(i = 0; i < int(a.size()); i+=2){
+    for(i = 0; i < a.size(); i+=2){
         b.push_back(a[i] - 48);
     }
 
