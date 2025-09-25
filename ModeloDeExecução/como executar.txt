@@ -1,0 +1,3 @@
+Use ‘fc’ in Windows or ‘diff’ in UNIX
+
+bash ProgramaExecutarRapido.sh

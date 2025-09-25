@@ -24,4 +24,4 @@ for i in $(seq 1 $casos); do
 
 done
 
-# bash ProgramaExecutarRapido.sh 
+# bash ProgramaExecutarRapido.sh
