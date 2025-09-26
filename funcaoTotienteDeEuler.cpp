@@ -23,7 +23,7 @@ int phi(int n) {
 
 int main(){
 
-    cout << phi(1500) << endl;
+    cout << phi(2025) << endl;
 
     return 0;
 }
