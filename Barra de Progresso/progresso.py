@@ -1,4 +1,4 @@
-num = int(1e5)
+num = int(1e9 + 7)
 
 for i in range(num):
     if i % (num // 100) == 0:
