@@ -12,15 +12,15 @@ int main(){
 
     int n = 0, aux = 0, i = 0;
 
-    vector<int> a;
-
     cin >> n;
+    
+    vector<int> a(n, 0);
 
-    while(cin >> aux){
-        a.push_back(aux);
+    for(i = 0; i < n; i++){
+        cin >> a[i];
     }
 
-    for(int i = 0; i < a.size(); i++){
+    for(i = 0; i < n; i++){
         cout << a[i] << " ";
     }
 
