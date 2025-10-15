@@ -1,3 +1,2 @@
- // if(n > 1){
-    //     fatores.push_back(n);
-    // }
+if (b==0) return a;
+    return MDC(b,a%b);

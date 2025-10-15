@@ -34,3 +34,5 @@
 # Arquivos Grandes
 *output/
 *.cph
+
+.vscode
